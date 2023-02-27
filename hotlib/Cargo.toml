@@ -1,0 +1,10 @@
+[package]
+name = "hotlib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+noise = { git = "https://github.com/Usman4D/noise-rs.git" , features = ["images"]}
+
+[lib]
+crate-type = ["rlib", "dylib"]
